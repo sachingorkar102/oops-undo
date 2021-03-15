@@ -1,0 +1,16 @@
+name: Oops
+version: ${project.version}
+main: me.sachin.Oops
+api-version: 1.16
+authors: [ sachingorkar ]
+description: Undo your misplaced block with ease
+commands:
+  oops:
+    description: main oops command
+permissions:
+  oops.command.reload:
+    description: reloads oops plugin config
+    default: op
+  oops.breakblock:
+    description: players having this permission will able to undo their block placements
+    default: true  

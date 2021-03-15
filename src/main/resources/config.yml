@@ -1,0 +1,7 @@
+# The amount of ticks you have to break an accidental placement.
+time-out-ticks: 30
+
+
+# A list of blocks to exclude
+# set [] if you want no blocks to be blacklisted
+black-list-blocks: []
